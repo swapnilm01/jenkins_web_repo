@@ -1,1 +1,95 @@
-this is first web page deployment
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Static Website</title>
+
+    <style>
+        /* ===== Global Styles ===== */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #4e73df;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background: #2e59d9;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #4e73df;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Static Website</h1>
+        <p>A simple, clean starter template</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2 id="home">Home</h2>
+        <p>This is a static HTML website. You can edit this text to fit your content.</p>
+
+        <h2 id="about">About</h2>
+        <p>Write something about yourself or your company here.</p>
+
+        <h2 id="services">Services</h2>
+        <ul>
+            <li>Service One</li>
+            <li>Service Two</li>
+            <li>Service Three</li>
+        </ul>
+
+        <h2 id="contact">Contact</h2>
+        <p>Email: you@example.com</p>
+    </div>
+
+    <footer>
+        <p>© 2025 My Static Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
